@@ -1,0 +1,14 @@
+{ signal: [
+    { name: "clk",             wave: "p....|......|." },
+    { name: "resetn",          wave: "01...|......|." },
+     
+    { name: "a",     wave: "x.3x.|..5x|...", data: ["3.14", "NaN", "...", "N-1", "..."] },
+    { name: "b",     wave: "x.3x.|..5x|...", data: ["10", "NaN", "...", "N-1", "..."] },
+    { name: "load",  wave: "0.1x.|.10.|..." },  
+    { name: "busy",  wave: "0..1.|.01.|.0." }, 
+      
+    { name: "status", wave:"x....|..3x|.5.", data: ["OK", "NaN"]  },  
+    { name: "sum",    wave:"x....|..8x|x..", data: ["13.14"] },  
+  
+    
+  ]}  
